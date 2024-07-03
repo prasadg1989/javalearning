@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-        PATH="%PATH%;E:\PrasadWorkplace\Maven\apache-maven-3.9.8\bin"
+        PATH="%PATH%;E:\\PrasadWorkplace\\Maven\apache-maven-3.9.8\\bin"
     }
     stages{
         stage("Welcome"){
