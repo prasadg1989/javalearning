@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Welcome"){
             steps{
-               git 'https://github.com/prasadg1989/javalearning'
+               echo "Git Checkout"
             }
         }
         stage("Maven Build"){
