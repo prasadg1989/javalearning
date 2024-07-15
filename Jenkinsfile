@@ -1,4 +1,4 @@
-pipeline{
+-pipeline{
     agent any
     environment {
     CLASSPATH = "/target/classes/javalearning/"
@@ -17,7 +17,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'java C:\\Users\\prasa\\.jenkins\\workspace\\jenkins-git\\target\\classes\\BaseClass'
+                bat 'java -classpath C:\\Users\\prasa\\.jenkins\\workspace\\jenkins-git\\target\\classes BaseClass'
             }
         }
     }
