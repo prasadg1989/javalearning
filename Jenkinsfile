@@ -16,6 +16,7 @@ pipeline{
         }
         stage('Run'){
             steps{
+                echo "PATH is: ${env.PATH}"
                 bat 'java BaseClass'
             }
         }
