@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'BaseClass'
+                bat 'java BaseClass'
             }
         }
     }
