@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'C:\Users\prasa\.jenkins\workspace\jenkins-git\target\classes\javalearning java BaseClass'
+                bat 'C:\\Users\prasa\\.jenkins\\workspace\\jenkins-git\\target\\classes\\javalearning java BaseClass'
             }
         }
     }
