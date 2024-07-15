@@ -1,8 +1,5 @@
 pipeline{
     agent any
-    environment {
-    PATH = "/target/classes/javalearning:${env.PATH}"
-   }
     stages{
         stage("Welcome"){
             steps{
