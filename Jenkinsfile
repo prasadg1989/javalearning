@@ -13,10 +13,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'cd target'
-                'cd classes'
-                'cd javalearning'
-                'java BaseClass'
+                bat 'C:\Users\prasa\.jenkins\workspace\jenkins-git\target\classes\javalearning java BaseClass'
             }
         }
     }
