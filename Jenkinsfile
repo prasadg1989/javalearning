@@ -17,7 +17,7 @@
         }
         stage('Run'){
             steps{
-                bat 'java -classpath C:\\Users\\prasa\\.jenkins\\workspace\\jenkins-git\\target\\classes BaseClass'
+                bat 'java BaseClass'
             }
         }
     }
