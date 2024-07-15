@@ -11,5 +11,10 @@ pipeline{
                 bat 'mvn -B -DskipTests clean package'
             }
         }
+        stage('Run'){
+            steps{
+                bat 'BaseClass'
+            }
+        }
     }
 }
