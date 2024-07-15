@@ -1,8 +1,5 @@
 -pipeline{
     agent any
-    environment {
-    CLASSPATH = "/target/classes/javalearning/"
-   }
     stages{
         stage("Welcome"){
             steps{
@@ -13,12 +10,6 @@
         stage('Build'){
             steps{
                 bat 'mvn -B -DskipTests clean package'
-            }
-        }
-        stage('Run'){
-            steps{
-                bat 'mvn verify'
-                bat 'mvn clean deploy'
             }
         }
     }
