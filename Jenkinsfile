@@ -14,11 +14,6 @@ pipeline{
                 bat 'mvn -B -DskipTests clean package'
             }
         }
-        stage('Run'){
-            steps{
-                echo "PATH is: ${env.PATH}"
-                bat 'java BaseClass'
-            }
-        }
+        
     }
 }
