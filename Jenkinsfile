@@ -17,7 +17,8 @@
         }
         stage('Run'){
             steps{
-                bat 'java BaseClass'
+                bat 'mvn verify'
+                bat 'mvn clean deploy'
             }
         }
     }
