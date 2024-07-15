@@ -6,5 +6,8 @@ pipeline{
                echo "Git Checkout"
             }
         }
+        stage('Build'){
+            sh 'mvn -B -DskipTests clean package'
+        }
     }
 }
