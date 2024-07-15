@@ -6,10 +6,5 @@ pipeline{
                echo "Git Checkout"
             }
         }
-        stage("Maven Build"){
-            steps{
-                sh "mvn -v"
-            }
-        }
     }
 }
