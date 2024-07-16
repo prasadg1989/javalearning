@@ -14,8 +14,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'mvn verify'
-                bat 'mvn clean deploy'
+                bat 'mvn exec:java'
             }
         }
     }
