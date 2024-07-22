@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'mvn exec:java'
+                bat 'java -cp target/classes:target/classes/javalearning/* BaseClass' 
             }
         }
     }
