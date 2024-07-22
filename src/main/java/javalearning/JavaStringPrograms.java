@@ -28,4 +28,7 @@ public class JavaStringPrograms {
 		System.out.println("Count of Each Character in :"+str);
 		System.out.println(charCount);
 	}
+
+	
+
 }
