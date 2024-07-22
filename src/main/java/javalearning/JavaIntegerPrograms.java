@@ -6,13 +6,12 @@ import java.util.Map;
 public class JavaIntegerPrograms {
 
 	public void reverseNumber(int number) {
-		int revNum=0, newNum=0;
-		
+		int revNum=0, newNum=0;	
 		while(number%10>0) {
 			revNum=revNum*10+number%10;
 			number=number/10;
 		}
-		System.out.println(revNum);
+		System.out.println("Given Number: "+number +"=== Reverse Number: "+revNum);
 	}
 
 	public void numbersCount(long number) {
@@ -25,6 +24,7 @@ public class JavaIntegerPrograms {
 				charCount.put(charArr[i], 1);
 			}
 		}
+		System.out.println("Count of Each Number in :"+number);
 		System.out.println(charCount);
 	}
 
