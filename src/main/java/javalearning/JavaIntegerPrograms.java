@@ -12,7 +12,7 @@ public class JavaIntegerPrograms {
 			revNum=revNum*10+number%10;
 			number=number/10;
 		}
-		System.out.println("Actual Number: "+number+"Reverse Number: "+revNum);
+		System.out.println(revNum);
 	}
 
 	public void numbersCount(long number) {
@@ -25,7 +25,6 @@ public class JavaIntegerPrograms {
 				charCount.put(charArr[i], 1);
 			}
 		}
-		System.out.println("Count of Each Number in: "+number);
 		System.out.println(charCount);
 	}
 
