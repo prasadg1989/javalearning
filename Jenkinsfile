@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                bat 'java -cp target/classes:target/classes/javalearning/* BaseClass' 
+                bat 'java -cp target/classes;target/classes/javalearning/* BaseClass' 
             }
         }
     }
