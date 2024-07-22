@@ -11,7 +11,7 @@ public class JavaIntegerPrograms {
 			revNum=revNum*10+number%10;
 			number=number/10;
 		}
-		System.out.println("Given Number: "+newNum +"=== Reverse Number: "+revNum);
+		System.out.println("Given Number: "+newNum +" === Reverse Number: "+revNum);
 	}
 
 	public void numbersCount(long number) {
